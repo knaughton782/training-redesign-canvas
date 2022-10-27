@@ -1,0 +1,385 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+/* font-family: 'Libre Franklin',
+sans-serif; */
+
+:root {
+  --webster-blue: #024890;
+  --lt-border: #c7c7c7;
+  --dk-border: #696969;
+  --webster-gold: #F5b706;
+  --webster-gold: #FAC638;
+  --franklin-font: 'Libre Franklin', sans-serif;
+  --webster-orange: #E66622;
+}
+
+.iframe-test {
+  /* currently only used in sandbox */
+  margin-top: 20px;
+  margin-bottom: 30px;
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  border-radius: 12px;
+  -moz-box-shadow: 4px 4px 14px #000;
+  -webkit-box-shadow: 4px 4px 14px #000;
+  box-shadow: 4px 4px 14px #000;
+  -moz-transform: rotate(10deg);
+  -webkit-transform: rotate(10deg);
+  -o-transform: rotate(10deg);
+  -ms-transform: rotate(10deg);
+  transform: rotate(10deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=.2);
+}
+
+
+.home-img-div-k {
+  background-image: url('https://olc.webster.edu/branding/img/walker-building.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* width: 100%; */
+  /* border-radius: 0 0 4px 4px; */
+  height: 350px;
+  color: #ffffff;
+  margin-bottom: 35px;
+}
+
+.home-img-div-k h1 {
+  /* position: absolute; */
+  /* top: 40px;
+    left: 25px; */
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.4em;
+  font-weight: 700;
+  /* line-height: .9; */
+  /* padding: 20px; */
+  /* padding-bottom: -15px !important; */
+  padding: 25px 20px 15px 20px;
+  margin: 0;
+}
+
+.home-img-div-k p,
+.home-img-div-k h3 {
+  /* position: absolute; */
+  border-radius: 0 0 4px 4px;
+  font-weight: 700;
+  /* padding: 20px; */
+  /* top: 135px;
+    left: 25px; */
+  padding: 0 20px;
+  margin: 0;
+}
+
+
+.test {
+  /* color: var(--webster-blue); */
+  border-radius: 4px;
+  border: 1px solid var(--dk-border);
+}
+
+/* testing for Melissa's interaction  */
+div#map {
+  display: none;
+}
+
+/* testing possible styles for the nav buttons  */
+.btn-navigation {
+  background-color: #f3efef;
+  border: 1px solid #cecdcd;
+  border-radius: 4px !important;
+  color: #004990;
+  font-size: 1em;
+  font-weight: bold;
+  margin: 4px 0;
+  padding: 15px;
+  line-height: 1.5em !important;
+  max-height: 47px;
+  max-width: 350px;
+  text-align: left !important;
+  text-decoration: none !important;
+}
+
+.iframe-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* This is the MGMT course logo/icon things that Ryan created. They need to be a block level element with the info below indented to indicate connection to the icon/header image above. */
+
+/* block level / header type icon styles */
+/* THIS IS IN PRODUCTION, NEWUI.CSS  */
+/* .header-section-wImg {
+  margin-bottom: 4%;
+}
+.header-img, .header-img-div {
+  display: block;
+  margin-left: 0;
+}
+
+div.header-section-left-gold {
+  border-left: 10px solid #ff9c00;
+  
+  margin-left: 10%;
+  margin-top: 2%;
+  padding: 0;
+}
+
+div.header-section-left-blue {
+  border-left: 10px solid #024890;
+  margin-left: 10%;
+  margin-top: 2%;
+  padding: 0;
+}
+
+.header-section-left-gold>p,
+.header-section-left-blue>p,
+.header-section-left-gold>div,
+.header-section-left-blue>div {
+  margin-left: 5%;
+} */
+
+
+/* end block level / header type icon styles */
+
+.lti-embed,
+#mediaContainer {
+  border-top: 3px solid black !important;
+}
+
+/* .lti-embed  */
+
+/* grey-header
+class-logo
+homeImgDiv 
+schoolName
+schoolTagLine */
+
+.training-header {
+  width: 100%;
+  height: 60px;
+  background-color: #EEEEEE;
+  color: var(--webster-blue);
+  font-family: var(--franklin-font);
+  font-size: 2.5em;
+  font-weight: 700;
+  position: relative;
+  border-radius: 4px 4px 0 0;
+}
+
+.training-logo {
+  max-height: 40px;
+  padding: 10px 10px 10px 15px;
+}
+
+.home-img-training-div-1 {
+  background-image: url('https://olc.webster.edu/branding/img/training-bg-1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  border-radius: 0 0 4px 4px;
+  height: 300px;
+  color: #ffffff;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 4px solid var(--webster-gold);
+}
+.home-img-training-div-2 {
+  background-image: url('https://olc.webster.edu/branding/img/training-bg-2.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  border-radius: 0 0 4px 4px;
+  height: 180px;
+  /* color: #ffffff; */
+  margin: 0;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 4px solid var(--webster-gold);
+}
+.home-img-training-div-1 h1 {
+  font-family: var(--franklin-font);
+  font-size: 2.5em;
+  font-weight: 800;
+  text-shadow: 2px 2px #000;
+  line-height: 1.1;
+  padding: 35px 20px 15px 25px;
+  margin: 0;
+}
+.home-img-training-div-2 h1 {
+  font-family: var(--franklin-font);
+  font-size: 2.5em;
+  font-weight: 800;
+  /* text-shadow: 2px 2px #000; */
+  line-height: 1.1;
+  padding: 35px 20px 15px 25px;
+  margin: 0;
+}
+
+.home-img-training-div-1 p,
+.home-img-training-div-1 h3 {
+  border-radius: 0 0 4px 4px;
+  font-weight: 400;
+  font-family: var(--franklin-font);
+  text-shadow: 2px 2px #000;
+  padding: 20px;
+  align-self: flex-end;
+}
+.home-img-training-div-2 p,
+.home-img-training-div-2 h3 {
+  border-radius: 0 0 4px 4px;
+  font-weight: 400;
+  font-family: var(--franklin-font);
+  /* text-shadow: 2px 2px #000; */
+  padding: 20px;
+  align-self: flex-end;
+}
+.training-module-links {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-family: var(--franklin-font);
+  margin: 15px 0 15px 0;
+  padding-bottom: 10px;
+  border-bottom: .75px solid #adadad;
+  gap: 10px;
+}
+
+.training-module-links a:link {
+  text-decoration: none !important;
+  color: var(--webster-blue);
+  font-family: var(--franklin-font);
+}
+
+.training-module-links a:visited {
+  text-decoration: none !important;
+  font-weight: 700;
+  color: var(--webster-blue);
+}
+
+.training-module-links a:hover {
+  text-decoration: none !important;
+  color: var(--webster-blue);
+  font-weight: 400;
+  border-bottom: 4px solid var(--webster-gold);
+}
+
+.training-module-links a:active {
+  text-decoration: none !important;
+  color: var(--webster-blue);
+  font-weight: 400;
+  border-bottom: 4px solid var(--webster-gold);
+}
+
+/* for h1  */
+.training-bold {
+  font-family: var(--franklin-font);
+  font-weight: 700;
+  color: var(--webster-blue);
+  border-bottom: 1px dashed var(--webster-blue);
+  margin: 20px 0 6px 0;
+}
+
+/* for h2 */
+.training-md {
+  font-family: var(--franklin-font);
+  font-weight: 500;
+  color: var(--webster-blue);
+  border-bottom: 1px dashed var(--webster-blue);
+}
+ 
+/* for h3  */
+.training-thin {
+  font-family: var(--franklin-font);
+  font-weight: 400;
+  color: var(--webster-blue);
+}
+
+.grey-background,
+.gray-background {
+  background-color: #EEEEEE;
+  border-radius: 4px;
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid #cecdcd;
+}
+.grey-background-md,
+.gray-background-md {
+  background-color: #EEEEEE;
+  border-radius: 4px;
+  padding: 20px;
+  margin: 20px auto;
+  border: 1px solid #cecdcd;
+  max-width: 80%;
+}
+
+.gold-line-bottom {
+  border-bottom: 4px solid var(--webster-gold);
+  padding: 0;
+  margin: 0;
+}
+
+.display-flex {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  font-family: var(--franklin-font);
+}
+
+.display-flex p,
+.display-flex div {
+  flex-basis: 80%;
+}
+
+.training-discussion-div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.training-discussion-div p,
+.training-discussion-div div {
+  flex-basis: 80%;
+}
+
+.training-discussion-icon {
+  padding: 10px;
+  height: 75px;
+  margin-left: 0;
+}
+
+div.gold-line-left {
+  border-left: 5px solid var(--webster-gold);
+  padding: 0 0 0 15px;
+}
+.training-warning {
+  width: 65%;
+  color: var(--webster-orange);
+  font-weight: bold;
+  margin: 20px;
+}
+.training-warning>p {
+  width: 65% !important;
+  color: var(--webster-orange);
+  font-weight: bold;
+}
+img.training-warning-icon {
+  height: 50px !important;
+  margin: 15px auto;
+}
